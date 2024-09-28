@@ -19,7 +19,7 @@ int main()
         for (int i = 0; i < size_name; i++)
         {
             std::cout << database[gg(rd)] << std::flush;
-            std::this_thread::sleep_for(std::chrono::milliseconds(70));
+            std::this_thread::sleep_for(std::chrono::milliseconds(20));
         }
         std::cout << std::endl;
     }
